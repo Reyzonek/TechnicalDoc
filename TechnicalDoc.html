@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <style>
-@media (min-width: 500px){
+@media (min-width: 1000px){
 body{
 display:flex;
 font-family: Arial, Helvetica, sans-serif;
@@ -9,19 +9,25 @@ color: rgb(88, 88, 88);
 #main-doc{
 margin-left: 330px;
 }
-#navbar{
-width: 1000px;
+#navbar{    
+width: auto;
 font-size: 20px;
 margin-right: 30px;
 position: fixed;
 }
-.nav-link{
+.nav-link{    
 text-decoration: none;
 color: rgb(88, 88, 88);
 }
 .nav-div{
-margin-top: 15px;
-margin-left: 20px;
+width: auto;  
+padding-right: 10px;
+border-color: black;
+border-style: solid;
+border-width: 1px;  
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 20px;
 }
 header{
 color: black;
@@ -80,12 +86,107 @@ code{
 #Reference{
 
 }
+#nav-header{
+border-color: black;
+border-style: solid;
+border-width: 1px;    
+}
+}
+body{
+display:flex;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(88, 88, 88);
+flex-direction: column;
+}
+#main-doc{
+
+}
+#navbar{
+font-size: 20px;
+margin-right: 30px;
+}
+.nav-link{
+text-decoration: none;
+color: rgb(88, 88, 88);
+}
+.nav-div{ 
+    width: auto;  
+padding-right: 10px;
+border-color: black;
+border-style: solid;
+border-width: 1px;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 20px;
+}
+header{
+color: black;
+}
+p{
+margin-left: 20px;
+}
+ul{
+margin-left: 20px; 
+}
+li{
+margin-bottom: 15px;
+}
+code{
+margin-left: 30px; 
+}
+#Introduction{
+
+}
+#What_you_should_already_know{
+
+}
+#JavaScript_and_Java{
+
+}
+#Hello_world{
+
+}
+#Variables{
+
+}
+#Declaring_variables{
+
+}
+#Variable_scope{
+
+}
+#Global_variables{
+
+}
+#Constants{
+
+}
+#Data_types{
+
+}
+#if...else_statement{
+
+}
+#while_statement{
+
+}
+#Function_declarations{
+
+}
+#Reference{
+
+}
+#nav-header{
+    text-align: center;
+border-color: black;
+border-style: solid;
+border-width: 1px;    
 }
 </style>
 <html>
     <body>
         <nav id="navbar">
-            <header><h1>JS Documentation</h1></header>
+            <header id="nav-header"><h1>JS Documentation</h1></header>
                 <div class="nav-div"><a href="#Introduction" class="nav-link">Introduction</a></div>
                 <div class="nav-div"><a href="#What_you_should_already_know" class="nav-link">What you should already know</a></div>
                 <div class="nav-div"><a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</div>
