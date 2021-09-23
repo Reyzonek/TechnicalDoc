@@ -1,38 +1,105 @@
 <!DOCTYPE html>
 <style>
+@media (min-width: 500px){
 body{
 display:flex;
 font-family: Arial, Helvetica, sans-serif;
-
+color: rgb(88, 88, 88);
 }
 #main-doc{
+margin-left: 330px;
+}
+#navbar{
+width: 1000px;
+font-size: 20px;
+margin-right: 30px;
+position: fixed;
+}
+.nav-link{
+text-decoration: none;
+color: rgb(88, 88, 88);
+}
+.nav-div{
+margin-top: 15px;
+margin-left: 20px;
+}
+header{
+color: black;
+}
+p{
+margin-left: 20px;
+}
+ul{
+margin-left: 20px; 
+}
+li{
+margin-bottom: 15px;
+}
+code{
+    margin-left: 30px; 
+}
+#Introduction{
 
 }
-#nav-bar{
+#What_you_should_already_know{
 
 }
-#nav-link{
+#JavaScript_and_Java{
 
+}
+#Hello_world{
+
+}
+#Variables{
+
+}
+#Declaring_variables{
+
+}
+#Variable_scope{
+
+}
+#Global_variables{
+
+}
+#Constants{
+
+}
+#Data_types{
+
+}
+#if...else_statement{
+
+}
+#while_statement{
+
+}
+#Function_declarations{
+
+}
+#Reference{
+
+}
 }
 </style>
 <html>
     <body>
-        <nav id="nav-bar">
+        <nav id="navbar">
             <header><h1>JS Documentation</h1></header>
-                <div><a href="#Introduction" class="nav-link">Introduction</a></div>
-                <div><a href="#What_you_should_already_know" class="nav-link">What you should already know</a></div>
-                <div><a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</div>
-                <div><a href="#Hello_world" class="nav-link">Hello world</a></div>
-                <div><a href="#Variables" class="nav-link">Variables</a></div>
-                <div><a href="#Declaring_variables" class="nav-link">Declaring variables</a></div>
-                <div><a href="#Variable_scope" class="nav-link">Variable scope</a></div>
-                <div><a href="#Global_variables" class="nav-link">Global variables</a></div>
-                <div><a href="#Constants" class="nav-link">Constants</a></div>
-                <div><a href="#Data_types" class="nav-link">Data types</a></div>
-                <div><a href="#if...else statement" class="nav-link">if...else statement</a></div>
-                <div><a href="#while_statement" class="nav-link">while statement</a></div>
-                <div><a href="#Function_declarations" class="nav-link">Function declarations</a></div>
-                <div><a href="#Reference" class="nav-link">Reference</a> </div>                  
+                <div class="nav-div"><a href="#Introduction" class="nav-link">Introduction</a></div>
+                <div class="nav-div"><a href="#What_you_should_already_know" class="nav-link">What you should already know</a></div>
+                <div class="nav-div"><a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</div>
+                <div class="nav-div"><a href="#Hello_world" class="nav-link">Hello world</a></div>
+                <div class="nav-div"><a href="#Variables" class="nav-link">Variables</a></div>
+                <div class="nav-div"><a href="#Declaring_variables" class="nav-link">Declaring variables</a></div>
+                <div class="nav-div"><a href="#Variable_scope" class="nav-link">Variable scope</a></div>
+                <div class="nav-div"><a href="#Global_variables" class="nav-link">Global variables</a></div>
+                <div class="nav-div"><a href="#Constants" class="nav-link">Constants</a></div>
+                <div class="nav-div"><a href="#Data_types" class="nav-link">Data types</a></div>
+                <div class="nav-div"><a href="#if...else_statement" class="nav-link">if...else statement</a></div>
+                <div class="nav-div"><a href="#while_statement" class="nav-link">while statement</a></div>
+                <div class="nav-div"><a href="#Function_declarations" class="nav-link">Function declarations</a></div>
+                <div class="nav-div"><a href="#Reference" class="nav-link">Reference</a> </div>                  
         </nav>
         <main id="main-doc">
             <section class="main-section" id="Introduction">
@@ -129,7 +196,7 @@ font-family: Arial, Helvetica, sans-serif;
                     </ul>
                     <p>Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform. </p>
                 </section>
-                <section class="main-section" id="if...else statement">
+                <section class="main-section" id="if...else_statement">
                     <header><h1>if...else statement</h1></header>
                     <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows: </p>
                     <code>if (condition) { statement_1; } else { statement_2; }</code>
